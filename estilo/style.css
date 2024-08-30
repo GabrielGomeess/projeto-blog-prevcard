@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    position: relative;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    height: 100vh;
+}
+
+main{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: hsl(0, 0%, 100%);
+    max-width: 375px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px 2px black;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+.parte-textual {
+    padding: 20px;
+}
+
+.caixa-amarela{
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.data{
+    font-weight: 600;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+.resumo{
+    color: hsl(0, 0%, 42%)
+
+}
+
+.parte-perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    font-weight: 800;
+}
